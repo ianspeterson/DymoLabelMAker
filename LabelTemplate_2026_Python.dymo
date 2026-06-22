@@ -1,0 +1,2441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DesktopLabel Version="1">
+  <DYMOLabel Version="4">
+    <Description>DYMO Label</Description>
+    <Orientation>Landscape</Orientation>
+    <LabelName>LargeShipping</LabelName>
+    <InitialLength>0</InitialLength>
+    <BorderStyle>SolidLine</BorderStyle>
+    <DYMORect>
+      <DYMOPoint>
+        <X>0.23333333</X>
+        <Y>0.056666665</Y>
+      </DYMOPoint>
+      <Size>
+        <Width>3.7066667</Width>
+        <Height>2.2166667</Height>
+      </Size>
+    </DYMORect>
+    <BorderColor>
+      <SolidColorBrush>
+        <Color A="1" R="0" G="0" B="0"></Color>
+      </SolidColorBrush>
+    </BorderColor>
+    <BorderThickness>1</BorderThickness>
+    <Show_Border>False</Show_Border>
+    <HasFixedLength>False</HasFixedLength>
+    <FixedLengthValue>0</FixedLengthValue>
+    <DynamicLayoutManager>
+      <RotationBehavior>ClearObjects</RotationBehavior>
+      <LabelObjects>
+        <TextObject>
+          <Name>TextObject4</Name>
+          <Brushes>
+            <BackgroundBrush>
+              <SolidColorBrush>
+                <Color A="1" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </BackgroundBrush>
+            <BorderBrush>
+              <SolidColorBrush>
+                <Color A="1" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </BorderBrush>
+            <StrokeBrush>
+              <SolidColorBrush>
+                <Color A="1" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </StrokeBrush>
+            <FillBrush>
+              <SolidColorBrush>
+                <Color A="0" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </FillBrush>
+          </Brushes>
+          <Rotation>Rotation0</Rotation>
+          <OutlineThickness>5</OutlineThickness>
+          <IsOutlined>False</IsOutlined>
+          <BorderStyle>SolidLine</BorderStyle>
+          <Margin>
+            <DYMOThickness Left="0" Top="0" Right="0" Bottom="0" />
+          </Margin>
+          <HorizontalAlignment>Center</HorizontalAlignment>
+          <VerticalAlignment>Middle</VerticalAlignment>
+          <FitMode>None</FitMode>
+          <IsVertical>False</IsVertical>
+          <FormattedText>
+            <FitMode>None</FitMode>
+            <HorizontalAlignment>Center</HorizontalAlignment>
+            <VerticalAlignment>Middle</VerticalAlignment>
+            <IsVertical>False</IsVertical>
+            <LineTextSpan>
+              <TextSpan>
+                <Text>#fid</Text>
+                <FontInfo>
+                  <FontName>Helvetica</FontName>
+                  <FontSize>108</FontSize>
+                  <IsBold>True</IsBold>
+                  <IsItalic>False</IsItalic>
+                  <IsUnderline>False</IsUnderline>
+                  <FontBrush>
+                    <SolidColorBrush>
+                      <Color A="1" R="1" G="1" B="1"></Color>
+                    </SolidColorBrush>
+                  </FontBrush>
+                </FontInfo>
+              </TextSpan>
+            </LineTextSpan>
+          </FormattedText>
+          <ObjectLayout>
+            <DYMOPoint>
+              <X>0.5009623</X>
+              <Y>0.05917133</Y>
+            </DYMOPoint>
+            <Size>
+              <Width>3.2003028</Width>
+              <Height>1.5486698</Height>
+            </Size>
+          </ObjectLayout>
+        </TextObject>
+        <TextObject>
+          <Name>TextObject3</Name>
+          <Brushes>
+            <BackgroundBrush>
+              <SolidColorBrush>
+                <Color A="0" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </BackgroundBrush>
+            <BorderBrush>
+              <SolidColorBrush>
+                <Color A="1" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </BorderBrush>
+            <StrokeBrush>
+              <SolidColorBrush>
+                <Color A="1" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </StrokeBrush>
+            <FillBrush>
+              <SolidColorBrush>
+                <Color A="0" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </FillBrush>
+          </Brushes>
+          <Rotation>Rotation0</Rotation>
+          <OutlineThickness>1</OutlineThickness>
+          <IsOutlined>True</IsOutlined>
+          <BorderStyle>SolidLine</BorderStyle>
+          <Margin>
+            <DYMOThickness Left="0" Top="0" Right="0" Bottom="0" />
+          </Margin>
+          <HorizontalAlignment>Center</HorizontalAlignment>
+          <VerticalAlignment>Middle</VerticalAlignment>
+          <FitMode>AlwaysFit</FitMode>
+          <IsVertical>False</IsVertical>
+          <FormattedText>
+            <FitMode>AlwaysFit</FitMode>
+            <HorizontalAlignment>Center</HorizontalAlignment>
+            <VerticalAlignment>Middle</VerticalAlignment>
+            <IsVertical>False</IsVertical>
+            <LineTextSpan>
+              <TextSpan>
+                <Text>Address:</Text>
+                <FontInfo>
+                  <FontName>Helvetica</FontName>
+                  <FontSize>11.6</FontSize>
+                  <IsBold>True</IsBold>
+                  <IsItalic>False</IsItalic>
+                  <IsUnderline>True</IsUnderline>
+                  <FontBrush>
+                    <SolidColorBrush>
+                      <Color A="1" R="0" G="0" B="0"></Color>
+                    </SolidColorBrush>
+                  </FontBrush>
+                </FontInfo>
+              </TextSpan>
+            </LineTextSpan>
+            <LineTextSpan>
+              <TextSpan>
+                <Text>#u/#add</Text>
+                <FontInfo>
+                  <FontName>Helvetica</FontName>
+                  <FontSize>11.6</FontSize>
+                  <IsBold>True</IsBold>
+                  <IsItalic>False</IsItalic>
+                  <IsUnderline>True</IsUnderline>
+                  <FontBrush>
+                    <SolidColorBrush>
+                      <Color A="1" R="0" G="0" B="0"></Color>
+                    </SolidColorBrush>
+                  </FontBrush>
+                </FontInfo>
+              </TextSpan>
+            </LineTextSpan>
+          </FormattedText>
+          <ObjectLayout>
+            <DYMOPoint>
+              <X>0.2520854</X>
+              <Y>1.6227207</Y>
+            </DYMOPoint>
+            <Size>
+              <Width>1.5398089</Width>
+              <Height>0.43218055</Height>
+            </Size>
+          </ObjectLayout>
+        </TextObject>
+        <TextObject>
+          <Name>TextObject0</Name>
+          <Brushes>
+            <BackgroundBrush>
+              <SolidColorBrush>
+                <Color A="0" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </BackgroundBrush>
+            <BorderBrush>
+              <SolidColorBrush>
+                <Color A="1" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </BorderBrush>
+            <StrokeBrush>
+              <SolidColorBrush>
+                <Color A="1" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </StrokeBrush>
+            <FillBrush>
+              <SolidColorBrush>
+                <Color A="0" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </FillBrush>
+          </Brushes>
+          <Rotation>Rotation0</Rotation>
+          <OutlineThickness>1</OutlineThickness>
+          <IsOutlined>False</IsOutlined>
+          <BorderStyle>SolidLine</BorderStyle>
+          <Margin>
+            <DYMOThickness Left="0" Top="0" Right="0" Bottom="0" />
+          </Margin>
+          <HorizontalAlignment>Center</HorizontalAlignment>
+          <VerticalAlignment>Middle</VerticalAlignment>
+          <FitMode>AlwaysFit</FitMode>
+          <IsVertical>False</IsVertical>
+          <FormattedText>
+            <FitMode>AlwaysFit</FitMode>
+            <HorizontalAlignment>Center</HorizontalAlignment>
+            <VerticalAlignment>Middle</VerticalAlignment>
+            <IsVertical>False</IsVertical>
+            <LineTextSpan>
+              <TextSpan>
+                <Text>Profile: #profile</Text>
+                <FontInfo>
+                  <FontName>Helvetica</FontName>
+                  <FontSize>16.4</FontSize>
+                  <IsBold>False</IsBold>
+                  <IsItalic>False</IsItalic>
+                  <IsUnderline>False</IsUnderline>
+                  <FontBrush>
+                    <SolidColorBrush>
+                      <Color A="1" R="0" G="0" B="0"></Color>
+                    </SolidColorBrush>
+                  </FontBrush>
+                </FontInfo>
+              </TextSpan>
+            </LineTextSpan>
+          </FormattedText>
+          <ObjectLayout>
+            <DYMOPoint>
+              <X>1.8913289</X>
+              <Y>1.6130967</Y>
+            </DYMOPoint>
+            <Size>
+              <Width>1.7606919</Width>
+              <Height>0.30673426</Height>
+            </Size>
+          </ObjectLayout>
+        </TextObject>
+        <TextObject>
+          <Name>TextObject2</Name>
+          <Brushes>
+            <BackgroundBrush>
+              <SolidColorBrush>
+                <Color A="0" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </BackgroundBrush>
+            <BorderBrush>
+              <SolidColorBrush>
+                <Color A="1" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </BorderBrush>
+            <StrokeBrush>
+              <SolidColorBrush>
+                <Color A="1" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </StrokeBrush>
+            <FillBrush>
+              <SolidColorBrush>
+                <Color A="0" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </FillBrush>
+          </Brushes>
+          <Rotation>Rotation90</Rotation>
+          <OutlineThickness>1</OutlineThickness>
+          <IsOutlined>False</IsOutlined>
+          <BorderStyle>SolidLine</BorderStyle>
+          <Margin>
+            <DYMOThickness Left="0" Top="0" Right="0" Bottom="0" />
+          </Margin>
+          <HorizontalAlignment>Center</HorizontalAlignment>
+          <VerticalAlignment>Middle</VerticalAlignment>
+          <FitMode>AlwaysFit</FitMode>
+          <IsVertical>False</IsVertical>
+          <FormattedText>
+            <FitMode>AlwaysFit</FitMode>
+            <HorizontalAlignment>Center</HorizontalAlignment>
+            <VerticalAlignment>Middle</VerticalAlignment>
+            <IsVertical>False</IsVertical>
+            <LineTextSpan>
+              <TextSpan>
+                <Text>ianspeterson.com</Text>
+                <FontInfo>
+                  <FontName>Helvetica</FontName>
+                  <FontSize>2.1</FontSize>
+                  <IsBold>False</IsBold>
+                  <IsItalic>False</IsItalic>
+                  <IsUnderline>False</IsUnderline>
+                  <FontBrush>
+                    <SolidColorBrush>
+                      <Color A="1" R="0" G="0" B="0"></Color>
+                    </SolidColorBrush>
+                  </FontBrush>
+                </FontInfo>
+              </TextSpan>
+            </LineTextSpan>
+          </FormattedText>
+          <ObjectLayout>
+            <DYMOPoint>
+              <X>0.2496442</X>
+              <Y>0.09650572</Y>
+            </DYMOPoint>
+            <Size>
+              <Width>0.24232508</Width>
+              <Height>1.4633648</Height>
+            </Size>
+          </ObjectLayout>
+        </TextObject>
+        <TextObject>
+          <Name>TextObject24</Name>
+          <Brushes>
+            <BackgroundBrush>
+              <SolidColorBrush>
+                <Color A="0" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </BackgroundBrush>
+            <BorderBrush>
+              <SolidColorBrush>
+                <Color A="1" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </BorderBrush>
+            <StrokeBrush>
+              <SolidColorBrush>
+                <Color A="1" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </StrokeBrush>
+            <FillBrush>
+              <SolidColorBrush>
+                <Color A="0" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </FillBrush>
+          </Brushes>
+          <Rotation>Rotation270</Rotation>
+          <OutlineThickness>1</OutlineThickness>
+          <IsOutlined>False</IsOutlined>
+          <BorderStyle>SolidLine</BorderStyle>
+          <Margin>
+            <DYMOThickness Left="0" Top="0" Right="0" Bottom="0" />
+          </Margin>
+          <HorizontalAlignment>Center</HorizontalAlignment>
+          <VerticalAlignment>Middle</VerticalAlignment>
+          <FitMode>AlwaysFit</FitMode>
+          <IsVertical>False</IsVertical>
+          <FormattedText>
+            <FitMode>AlwaysFit</FitMode>
+            <HorizontalAlignment>Center</HorizontalAlignment>
+            <VerticalAlignment>Middle</VerticalAlignment>
+            <IsVertical>False</IsVertical>
+            <LineTextSpan>
+              <TextSpan>
+                <Text>ianspeterson.com</Text>
+                <FontInfo>
+                  <FontName>Helvetica</FontName>
+                  <FontSize>1.7</FontSize>
+                  <IsBold>False</IsBold>
+                  <IsItalic>False</IsItalic>
+                  <IsUnderline>False</IsUnderline>
+                  <FontBrush>
+                    <SolidColorBrush>
+                      <Color A="1" R="0" G="0" B="0"></Color>
+                    </SolidColorBrush>
+                  </FontBrush>
+                </FontInfo>
+              </TextSpan>
+            </LineTextSpan>
+          </FormattedText>
+          <ObjectLayout>
+            <DYMOPoint>
+              <X>3.7187777</X>
+              <Y>0.08120541</Y>
+            </DYMOPoint>
+            <Size>
+              <Width>0.20122218</Width>
+              <Height>1.6500368</Height>
+            </Size>
+          </ObjectLayout>
+        </TextObject>
+        <TextObject>
+          <Name>TextObject5</Name>
+          <Brushes>
+            <BackgroundBrush>
+              <SolidColorBrush>
+                <Color A="0" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </BackgroundBrush>
+            <BorderBrush>
+              <SolidColorBrush>
+                <Color A="1" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </BorderBrush>
+            <StrokeBrush>
+              <SolidColorBrush>
+                <Color A="1" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </StrokeBrush>
+            <FillBrush>
+              <SolidColorBrush>
+                <Color A="0" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </FillBrush>
+          </Brushes>
+          <Rotation>Rotation0</Rotation>
+          <OutlineThickness>1</OutlineThickness>
+          <IsOutlined>False</IsOutlined>
+          <BorderStyle>SolidLine</BorderStyle>
+          <Margin>
+            <DYMOThickness Left="0" Top="0" Right="0" Bottom="0" />
+          </Margin>
+          <HorizontalAlignment>Center</HorizontalAlignment>
+          <VerticalAlignment>Middle</VerticalAlignment>
+          <FitMode>AlwaysFit</FitMode>
+          <IsVertical>False</IsVertical>
+          <FormattedText>
+            <FitMode>AlwaysFit</FitMode>
+            <HorizontalAlignment>Center</HorizontalAlignment>
+            <VerticalAlignment>Middle</VerticalAlignment>
+            <IsVertical>False</IsVertical>
+            <LineTextSpan>
+              <TextSpan>
+                <Text>#description</Text>
+                <FontInfo>
+                  <FontName>Helvetica</FontName>
+                  <FontSize>16.4</FontSize>
+                  <IsBold>False</IsBold>
+                  <IsItalic>False</IsItalic>
+                  <IsUnderline>False</IsUnderline>
+                  <FontBrush>
+                    <SolidColorBrush>
+                      <Color A="1" R="0" G="0" B="0"></Color>
+                    </SolidColorBrush>
+                  </FontBrush>
+                </FontInfo>
+              </TextSpan>
+            </LineTextSpan>
+          </FormattedText>
+          <ObjectLayout>
+            <DYMOPoint>
+              <X>1.9555495</X>
+              <Y>1.7998514</Y>
+            </DYMOPoint>
+            <Size>
+              <Width>1.6964709</Width>
+              <Height>0.30673426</Height>
+            </Size>
+          </ObjectLayout>
+        </TextObject>
+        <TextObject>
+          <Name>TextObject6</Name>
+          <Brushes>
+            <BackgroundBrush>
+              <SolidColorBrush>
+                <Color A="0" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </BackgroundBrush>
+            <BorderBrush>
+              <SolidColorBrush>
+                <Color A="1" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </BorderBrush>
+            <StrokeBrush>
+              <SolidColorBrush>
+                <Color A="1" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </StrokeBrush>
+            <FillBrush>
+              <SolidColorBrush>
+                <Color A="0" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </FillBrush>
+          </Brushes>
+          <Rotation>Rotation0</Rotation>
+          <OutlineThickness>1</OutlineThickness>
+          <IsOutlined>False</IsOutlined>
+          <BorderStyle>SolidLine</BorderStyle>
+          <Margin>
+            <DYMOThickness Left="0" Top="0" Right="0" Bottom="0" />
+          </Margin>
+          <HorizontalAlignment>Center</HorizontalAlignment>
+          <VerticalAlignment>Middle</VerticalAlignment>
+          <FitMode>AlwaysFit</FitMode>
+          <IsVertical>False</IsVertical>
+          <FormattedText>
+            <FitMode>AlwaysFit</FitMode>
+            <HorizontalAlignment>Center</HorizontalAlignment>
+            <VerticalAlignment>Middle</VerticalAlignment>
+            <IsVertical>False</IsVertical>
+            <LineTextSpan>
+              <TextSpan>
+                <Text>Fixture: #fixturetype</Text>
+                <FontInfo>
+                  <FontName>Helvetica</FontName>
+                  <FontSize>8</FontSize>
+                  <IsBold>False</IsBold>
+                  <IsItalic>False</IsItalic>
+                  <IsUnderline>False</IsUnderline>
+                  <FontBrush>
+                    <SolidColorBrush>
+                      <Color A="1" R="0" G="0" B="0"></Color>
+                    </SolidColorBrush>
+                  </FontBrush>
+                </FontInfo>
+              </TextSpan>
+            </LineTextSpan>
+          </FormattedText>
+          <ObjectLayout>
+            <DYMOPoint>
+              <X>1.9555495</X>
+              <Y>2.1065857</Y>
+            </DYMOPoint>
+            <Size>
+              <Width>1.6087149</Width>
+              <Height>0.15094139</Height>
+            </Size>
+          </ObjectLayout>
+        </TextObject>
+        <TextObject>
+          <Name>TextObject7</Name>
+          <Brushes>
+            <BackgroundBrush>
+              <SolidColorBrush>
+                <Color A="0" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </BackgroundBrush>
+            <BorderBrush>
+              <SolidColorBrush>
+                <Color A="1" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </BorderBrush>
+            <StrokeBrush>
+              <SolidColorBrush>
+                <Color A="1" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </StrokeBrush>
+            <FillBrush>
+              <SolidColorBrush>
+                <Color A="0" R="0" G="0" B="0"></Color>
+              </SolidColorBrush>
+            </FillBrush>
+          </Brushes>
+          <Rotation>Rotation0</Rotation>
+          <OutlineThickness>3</OutlineThickness>
+          <IsOutlined>False</IsOutlined>
+          <BorderStyle>SolidLine</BorderStyle>
+          <Margin>
+            <DYMOThickness Left="0" Top="0" Right="0" Bottom="0" />
+          </Margin>
+          <HorizontalAlignment>Center</HorizontalAlignment>
+          <VerticalAlignment>Middle</VerticalAlignment>
+          <FitMode>AlwaysFit</FitMode>
+          <IsVertical>False</IsVertical>
+          <FormattedText>
+            <FitMode>AlwaysFit</FitMode>
+            <HorizontalAlignment>Center</HorizontalAlignment>
+            <VerticalAlignment>Middle</VerticalAlignment>
+            <IsVertical>False</IsVertical>
+            <LineTextSpan>
+              <TextSpan>
+                <Text>LINK: #link</Text>
+                <FontInfo>
+                  <FontName>Helvetica</FontName>
+                  <FontSize>10</FontSize>
+                  <IsBold>False</IsBold>
+                  <IsItalic>True</IsItalic>
+                  <IsUnderline>False</IsUnderline>
+                  <FontBrush>
+                    <SolidColorBrush>
+                      <Color A="1" R="0" G="0" B="0"></Color>
+                    </SolidColorBrush>
+                  </FontBrush>
+                </FontInfo>
+              </TextSpan>
+            </LineTextSpan>
+          </FormattedText>
+          <ObjectLayout>
+            <DYMOPoint>
+              <X>0.24333334</X>
+              <Y>2.0581143</Y>
+            </DYMOPoint>
+            <Size>
+              <Width>1.5337604</Width>
+              <Height>0.1891147</Height>
+            </Size>
+          </ObjectLayout>
+        </TextObject>
+      </LabelObjects>
+    </DynamicLayoutManager>
+  </DYMOLabel>
+  <LabelApplication>Blank</LabelApplication>
+  <DataTable>
+    <Columns>
+      <DataColumn>FIXTURE_NUMBER</DataColumn>
+      <DataColumn>ADDRESS</DataColumn>
+      <DataColumn>ADDRESS_FOR_LABELS</DataColumn>
+      <DataColumn>MANUFACTURER</DataColumn>
+      <DataColumn>FIXTURE_TYPE</DataColumn>
+      <DataColumn>DMX_FOOTPRINT</DataColumn>
+      <DataColumn>DESCRIPTION</DataColumn>
+      <DataColumn>MODE</DataColumn>
+      <DataColumn>LABEL</DataColumn>
+      <DataColumn>LINK</DataColumn>
+      <DataColumn>Column11</DataColumn>
+    </Columns>
+    <Rows>
+      <DataRow>
+        <Value>101</Value>
+        <Value>21 / 361-379</Value>
+        <Value>21/361</Value>
+        <Value>Aputure</Value>
+        <Value>STORM XT52</Value>
+        <Value>19</Value>
+        <Value>Limited CCT &amp; RGB + Control - 16 Bit</Value>
+        <Value>Profile 120</Value>
+        <Value>XT52</Value>
+        <Value>11111111A</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>102</Value>
+        <Value>21 / 380-398</Value>
+        <Value>21/380</Value>
+        <Value>Aputure</Value>
+        <Value>STORM XT52</Value>
+        <Value>19</Value>
+        <Value>Limited CCT &amp; RGB + Control - 16 Bit</Value>
+        <Value>Profile 120</Value>
+        <Value>XT52</Value>
+        <Value>11111111A</Value>
+        <Value>11111111A</Value>
+      </DataRow>
+      <DataRow>
+        <Value>103</Value>
+        <Value>21 / 399-415</Value>
+        <Value>21/399</Value>
+        <Value>Aputure</Value>
+        <Value>STORM 1000c</Value>
+        <Value>17</Value>
+        <Value>CCT &amp; RGB + Control - 16 Bit</Value>
+        <Value>Profile 42</Value>
+        <Value>1000c</Value>
+        <Value>11111111A</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>104</Value>
+        <Value>21 / 261-277</Value>
+        <Value>21/261</Value>
+        <Value>Aputure</Value>
+        <Value>STORM 1000c</Value>
+        <Value>17</Value>
+        <Value>CCT &amp; RGB + Control - 16 Bit</Value>
+        <Value>Profile 42</Value>
+        <Value>1000c</Value>
+        <Value>11111111A</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>101</Value>
+        <Value>21 / 361-379</Value>
+        <Value>21/361</Value>
+        <Value>Aputure</Value>
+        <Value>STORM XT52</Value>
+        <Value>19</Value>
+        <Value>Limited CCT &amp; RGB + Control - 16 Bit</Value>
+        <Value>Profile 120</Value>
+        <Value>XT52</Value>
+        <Value>11111111A</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>102</Value>
+        <Value>21 / 380-398</Value>
+        <Value>21/380</Value>
+        <Value>Aputure</Value>
+        <Value>STORM XT52</Value>
+        <Value>19</Value>
+        <Value>Limited CCT &amp; RGB + Control - 16 Bit</Value>
+        <Value>Profile 120</Value>
+        <Value>XT52</Value>
+        <Value>11111111A</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>103</Value>
+        <Value>21 / 399-415</Value>
+        <Value>21/399</Value>
+        <Value>Aputure</Value>
+        <Value>STORM 1000c</Value>
+        <Value>17</Value>
+        <Value>CCT &amp; RGB + Control - 16 Bit</Value>
+        <Value>Profile 42</Value>
+        <Value>1000c</Value>
+        <Value>11111111A</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>104</Value>
+        <Value>21 / 261-277</Value>
+        <Value>21/261</Value>
+        <Value>Aputure</Value>
+        <Value>STORM 1000c</Value>
+        <Value>17</Value>
+        <Value>CCT &amp; RGB + Control - 16 Bit</Value>
+        <Value>Profile 42</Value>
+        <Value>1000c</Value>
+        <Value>11111111A</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>201</Value>
+        <Value>22 / 1-129</Value>
+        <Value>22/001</Value>
+        <Value>Astera</Value>
+        <Value>Titan Tube</Value>
+        <Value>129</Value>
+        <Value>D16 CCT GM C RGB S</Value>
+        <Value>Mode 140</Value>
+        <Value>TITAN</Value>
+        <Value>11111111B</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>202</Value>
+        <Value>22 / 130-258</Value>
+        <Value>22/130</Value>
+        <Value>Astera</Value>
+        <Value>Titan Tube</Value>
+        <Value>129</Value>
+        <Value>D16 CCT GM C RGB S</Value>
+        <Value>Mode 140</Value>
+        <Value>TITAN</Value>
+        <Value>11111111B</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>203</Value>
+        <Value>22 / 259-387</Value>
+        <Value>22/259</Value>
+        <Value>Astera</Value>
+        <Value>Titan Tube</Value>
+        <Value>129</Value>
+        <Value>D16 CCT GM C RGB S</Value>
+        <Value>Mode 140</Value>
+        <Value>TITAN</Value>
+        <Value>11111111B</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>204</Value>
+        <Value>23 / 1-129</Value>
+        <Value>23/001</Value>
+        <Value>Astera</Value>
+        <Value>Titan Tube</Value>
+        <Value>129</Value>
+        <Value>D16 CCT GM C RGB S</Value>
+        <Value>Mode 140</Value>
+        <Value>TITAN</Value>
+        <Value>11111111C</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>205</Value>
+        <Value>23 / 130-258</Value>
+        <Value>23/130</Value>
+        <Value>Astera</Value>
+        <Value>Titan Tube</Value>
+        <Value>129</Value>
+        <Value>D16 CCT GM C RGB S</Value>
+        <Value>Mode 140</Value>
+        <Value>TITAN</Value>
+        <Value>11111111C</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>206</Value>
+        <Value>23 / 259-387</Value>
+        <Value>23/259</Value>
+        <Value>Astera</Value>
+        <Value>Titan Tube</Value>
+        <Value>129</Value>
+        <Value>D16 CCT GM C RGB S</Value>
+        <Value>Mode 140</Value>
+        <Value>TITAN</Value>
+        <Value>11111111C</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>207</Value>
+        <Value>24 / 1-129</Value>
+        <Value>24/001</Value>
+        <Value>Astera</Value>
+        <Value>Titan Tube</Value>
+        <Value>129</Value>
+        <Value>D16 CCT GM C RGB S</Value>
+        <Value>Mode 140</Value>
+        <Value>TITAN</Value>
+        <Value>11111111D</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>208</Value>
+        <Value>24 / 130-258</Value>
+        <Value>24/130</Value>
+        <Value>Astera</Value>
+        <Value>Titan Tube</Value>
+        <Value>129</Value>
+        <Value>D16 CCT GM C RGB S</Value>
+        <Value>Mode 140</Value>
+        <Value>TITAN</Value>
+        <Value>11111111D</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>209</Value>
+        <Value>24 / 259-387</Value>
+        <Value>24/259</Value>
+        <Value>Astera</Value>
+        <Value>Titan Tube</Value>
+        <Value>129</Value>
+        <Value>D16 CCT GM C RGB S</Value>
+        <Value>Mode 140</Value>
+        <Value>TITAN</Value>
+        <Value>11111111D</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>210</Value>
+        <Value>25 / 1-129</Value>
+        <Value>25/001</Value>
+        <Value>Astera</Value>
+        <Value>Titan Tube</Value>
+        <Value>129</Value>
+        <Value>D16 CCT GM C RGB S</Value>
+        <Value>Mode 140</Value>
+        <Value>TITAN</Value>
+        <Value>11111111E</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>211</Value>
+        <Value>25 / 130-258</Value>
+        <Value>25/130</Value>
+        <Value>Astera</Value>
+        <Value>Titan Tube</Value>
+        <Value>129</Value>
+        <Value>D16 CCT GM C RGB S</Value>
+        <Value>Mode 140</Value>
+        <Value>TITAN</Value>
+        <Value>11111111E</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>212</Value>
+        <Value>25 / 259-387</Value>
+        <Value>25/259</Value>
+        <Value>Astera</Value>
+        <Value>Titan Tube</Value>
+        <Value>129</Value>
+        <Value>D16 CCT GM C RGB S</Value>
+        <Value>Mode 140</Value>
+        <Value>TITAN</Value>
+        <Value>11111111E</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>213</Value>
+        <Value>26 / 1-129</Value>
+        <Value>26/001</Value>
+        <Value>Astera</Value>
+        <Value>Titan Tube</Value>
+        <Value>129</Value>
+        <Value>D16 CCT GM C RGB S</Value>
+        <Value>Mode 140</Value>
+        <Value>TITAN</Value>
+        <Value>11111111F</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>214</Value>
+        <Value>26 / 130-258</Value>
+        <Value>26/130</Value>
+        <Value>Astera</Value>
+        <Value>Titan Tube</Value>
+        <Value>129</Value>
+        <Value>D16 CCT GM C RGB S</Value>
+        <Value>Mode 140</Value>
+        <Value>TITAN</Value>
+        <Value>11111111F</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>215</Value>
+        <Value>26 / 259-387</Value>
+        <Value>26/259</Value>
+        <Value>Astera</Value>
+        <Value>Titan Tube</Value>
+        <Value>129</Value>
+        <Value>D16 CCT GM C RGB S</Value>
+        <Value>Mode 140</Value>
+        <Value>TITAN</Value>
+        <Value>11111111F</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>216</Value>
+        <Value>27 / 1-129</Value>
+        <Value>27/001</Value>
+        <Value>Astera</Value>
+        <Value>Titan Tube</Value>
+        <Value>129</Value>
+        <Value>D16 CCT GM C RGB S</Value>
+        <Value>Mode 140</Value>
+        <Value>TITAN</Value>
+        <Value>11111111G</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>361</Value>
+        <Value>27 / 130-322</Value>
+        <Value>27/130</Value>
+        <Value>ARRI</Value>
+        <Value>SkyPanel S360-C</Value>
+        <Value>193</Value>
+        <Value>LE CCT &amp; RGBW 16 bit</Value>
+        <Value>Mode 25</Value>
+        <Value>S360C</Value>
+        <Value>11111111G</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>362</Value>
+        <Value>28 / 1-193</Value>
+        <Value>28/001</Value>
+        <Value>ARRI</Value>
+        <Value>SkyPanel S360-C</Value>
+        <Value>193</Value>
+        <Value>LE CCT &amp; RGBW 16 bit</Value>
+        <Value>Mode 25</Value>
+        <Value>S360C</Value>
+        <Value>11111111H</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>401</Value>
+        <Value>30 / 1-36</Value>
+        <Value>30/001</Value>
+        <Value>LiteGear</Value>
+        <Value>LiteMat Spectrum 4</Value>
+        <Value>36</Value>
+        <Value>Spectrum</Value>
+        <Value>Pixel</Value>
+        <Value>16 Bit</Value>
+        <Value>88888888</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>421</Value>
+        <Value>30 / 37-54</Value>
+        <Value>30/037</Value>
+        <Value>LiteGear</Value>
+        <Value>LiteMat Spectrum 2L</Value>
+        <Value>18</Value>
+        <Value>Spectrum</Value>
+        <Value>Pixel</Value>
+        <Value>16 Bit</Value>
+        <Value>88888888</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>401</Value>
+        <Value>30 / 1-36</Value>
+        <Value>30/001</Value>
+        <Value>LiteGear</Value>
+        <Value>LiteMat Spectrum 4</Value>
+        <Value>36</Value>
+        <Value>Spectrum</Value>
+        <Value>Pixel</Value>
+        <Value>16 Bit</Value>
+        <Value>88888888</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>421</Value>
+        <Value>30 / 37-54</Value>
+        <Value>30/037</Value>
+        <Value>LiteGear</Value>
+        <Value>LiteMat Spectrum 2L</Value>
+        <Value>18</Value>
+        <Value>Spectrum</Value>
+        <Value>Pixel</Value>
+        <Value>16 Bit</Value>
+        <Value>88888888</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>501</Value>
+        <Value>9 / 1-20</Value>
+        <Value>9/001</Value>
+        <Value>ARRI</Value>
+        <Value>SkyPanel S60-C</Value>
+        <Value>20</Value>
+        <Value>CCT &amp; RGBW 16 bit</Value>
+        <Value>Mode 6</Value>
+        <Value>S60C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>502</Value>
+        <Value>9 / 21-40</Value>
+        <Value>9/021</Value>
+        <Value>ARRI</Value>
+        <Value>SkyPanel S60-C</Value>
+        <Value>20</Value>
+        <Value>CCT &amp; RGBW 16 bit</Value>
+        <Value>Mode 6</Value>
+        <Value>S60C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>503</Value>
+        <Value>9 / 41-60</Value>
+        <Value>9/041</Value>
+        <Value>ARRI</Value>
+        <Value>SkyPanel S60-C</Value>
+        <Value>20</Value>
+        <Value>CCT &amp; RGBW 16 bit</Value>
+        <Value>Mode 6</Value>
+        <Value>S60C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>504</Value>
+        <Value>9 / 61-80</Value>
+        <Value>9/061</Value>
+        <Value>ARRI</Value>
+        <Value>SkyPanel S60-C</Value>
+        <Value>20</Value>
+        <Value>CCT &amp; RGBW 16 bit</Value>
+        <Value>Mode 6</Value>
+        <Value>S60C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>505</Value>
+        <Value>9 / 81-100</Value>
+        <Value>9/081</Value>
+        <Value>ARRI</Value>
+        <Value>SkyPanel S60-C</Value>
+        <Value>20</Value>
+        <Value>CCT &amp; RGBW 16 bit</Value>
+        <Value>Mode 6</Value>
+        <Value>S60C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>506</Value>
+        <Value>9 / 101-120</Value>
+        <Value>9/101</Value>
+        <Value>ARRI</Value>
+        <Value>SkyPanel S60-C</Value>
+        <Value>20</Value>
+        <Value>CCT &amp; RGBW 16 bit</Value>
+        <Value>Mode 6</Value>
+        <Value>S60C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>507</Value>
+        <Value>9 / 121-140</Value>
+        <Value>9/121</Value>
+        <Value>ARRI</Value>
+        <Value>SkyPanel S60-C</Value>
+        <Value>20</Value>
+        <Value>CCT &amp; RGBW 16 bit</Value>
+        <Value>Mode 6</Value>
+        <Value>S60C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>508</Value>
+        <Value>9 / 141-160</Value>
+        <Value>9/141</Value>
+        <Value>ARRI</Value>
+        <Value>SkyPanel S60-C</Value>
+        <Value>20</Value>
+        <Value>CCT &amp; RGBW 16 bit</Value>
+        <Value>Mode 6</Value>
+        <Value>S60C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>509</Value>
+        <Value>9 / 161-180</Value>
+        <Value>9/161</Value>
+        <Value>ARRI</Value>
+        <Value>SkyPanel S60-C</Value>
+        <Value>20</Value>
+        <Value>CCT &amp; RGBW 16 bit</Value>
+        <Value>Mode 6</Value>
+        <Value>S60C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>510</Value>
+        <Value>9 / 181-200</Value>
+        <Value>9/181</Value>
+        <Value>ARRI</Value>
+        <Value>SkyPanel S60-C</Value>
+        <Value>20</Value>
+        <Value>CCT &amp; RGBW 16 bit</Value>
+        <Value>Mode 6</Value>
+        <Value>S60C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>511</Value>
+        <Value>9 / 201-220</Value>
+        <Value>9/201</Value>
+        <Value>ARRI</Value>
+        <Value>SkyPanel S60-C</Value>
+        <Value>20</Value>
+        <Value>CCT &amp; RGBW 16 bit</Value>
+        <Value>Mode 6</Value>
+        <Value>S60C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>512</Value>
+        <Value>9 / 221-240</Value>
+        <Value>9/221</Value>
+        <Value>ARRI</Value>
+        <Value>SkyPanel S60-C</Value>
+        <Value>20</Value>
+        <Value>CCT &amp; RGBW 16 bit</Value>
+        <Value>Mode 6</Value>
+        <Value>S60C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>513</Value>
+        <Value>9 / 241-260</Value>
+        <Value>9/241</Value>
+        <Value>ARRI</Value>
+        <Value>SkyPanel S60-C</Value>
+        <Value>20</Value>
+        <Value>CCT &amp; RGBW 16 bit</Value>
+        <Value>Mode 6</Value>
+        <Value>S60C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>514</Value>
+        <Value>9 / 261-280</Value>
+        <Value>9/261</Value>
+        <Value>ARRI</Value>
+        <Value>SkyPanel S60-C</Value>
+        <Value>20</Value>
+        <Value>CCT &amp; RGBW 16 bit</Value>
+        <Value>Mode 6</Value>
+        <Value>S60C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>515</Value>
+        <Value>9 / 281-300</Value>
+        <Value>9/281</Value>
+        <Value>ARRI</Value>
+        <Value>SkyPanel S60-C</Value>
+        <Value>20</Value>
+        <Value>CCT &amp; RGBW 16 bit</Value>
+        <Value>Mode 6</Value>
+        <Value>S60C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>516</Value>
+        <Value>9 / 301-320</Value>
+        <Value>9/301</Value>
+        <Value>ARRI</Value>
+        <Value>SkyPanel S60-C</Value>
+        <Value>20</Value>
+        <Value>CCT &amp; RGBW 16 bit</Value>
+        <Value>Mode 6</Value>
+        <Value>S60C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>517</Value>
+        <Value>9 / 321-340</Value>
+        <Value>9/321</Value>
+        <Value>ARRI</Value>
+        <Value>SkyPanel S60-C</Value>
+        <Value>20</Value>
+        <Value>CCT &amp; RGBW 16 bit</Value>
+        <Value>Mode 6</Value>
+        <Value>S60C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>518</Value>
+        <Value>9 / 341-360</Value>
+        <Value>9/341</Value>
+        <Value>ARRI</Value>
+        <Value>SkyPanel S60-C</Value>
+        <Value>20</Value>
+        <Value>CCT &amp; RGBW 16 bit</Value>
+        <Value>Mode 6</Value>
+        <Value>S60C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>519</Value>
+        <Value>9 / 361-380</Value>
+        <Value>9/361</Value>
+        <Value>ARRI</Value>
+        <Value>SkyPanel S60-C</Value>
+        <Value>20</Value>
+        <Value>CCT &amp; RGBW 16 bit</Value>
+        <Value>Mode 6</Value>
+        <Value>S60C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>520</Value>
+        <Value>9 / 381-400</Value>
+        <Value>9/381</Value>
+        <Value>ARRI</Value>
+        <Value>SkyPanel S60-C</Value>
+        <Value>20</Value>
+        <Value>CCT &amp; RGBW 16 bit</Value>
+        <Value>Mode 6</Value>
+        <Value>S60C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>521</Value>
+        <Value>9 / 401-420</Value>
+        <Value>9/401</Value>
+        <Value>ARRI</Value>
+        <Value>SkyPanel S60-C</Value>
+        <Value>20</Value>
+        <Value>CCT &amp; RGBW 16 bit</Value>
+        <Value>Mode 6</Value>
+        <Value>S60C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>522</Value>
+        <Value>9 / 421-440</Value>
+        <Value>9/421</Value>
+        <Value>ARRI</Value>
+        <Value>SkyPanel S60-C</Value>
+        <Value>20</Value>
+        <Value>CCT &amp; RGBW 16 bit</Value>
+        <Value>Mode 6</Value>
+        <Value>S60C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>523</Value>
+        <Value>9 / 441-460</Value>
+        <Value>9/441</Value>
+        <Value>ARRI</Value>
+        <Value>SkyPanel S60-C</Value>
+        <Value>20</Value>
+        <Value>CCT &amp; RGBW 16 bit</Value>
+        <Value>Mode 6</Value>
+        <Value>S60C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>524</Value>
+        <Value>9 / 461-480</Value>
+        <Value>9/461</Value>
+        <Value>ARRI</Value>
+        <Value>SkyPanel S60-C</Value>
+        <Value>20</Value>
+        <Value>CCT &amp; RGBW 16 bit</Value>
+        <Value>Mode 6</Value>
+        <Value>S60C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>525</Value>
+        <Value>9 / 481-500</Value>
+        <Value>9/481</Value>
+        <Value>ARRI</Value>
+        <Value>SkyPanel S60-C</Value>
+        <Value>20</Value>
+        <Value>CCT &amp; RGBW 16 bit</Value>
+        <Value>Mode 6</Value>
+        <Value>S60C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>526</Value>
+        <Value>10 / 1-20</Value>
+        <Value>10/001</Value>
+        <Value>ARRI</Value>
+        <Value>SkyPanel S60-C</Value>
+        <Value>20</Value>
+        <Value>CCT &amp; RGBW 16 bit</Value>
+        <Value>Mode 6</Value>
+        <Value>S60C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>601</Value>
+        <Value>2 / 1-22</Value>
+        <Value>2/001</Value>
+        <Value>NANLUX</Value>
+        <Value>Evoke 600C</Value>
+        <Value>22</Value>
+        <Value>REDUCED OFF | 16 Bit</Value>
+        <Value>CCT &amp; RGBW 16bit</Value>
+        <Value>EVOKE 600C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>602</Value>
+        <Value>2 / 23-44</Value>
+        <Value>2/023</Value>
+        <Value>NANLUX</Value>
+        <Value>Evoke 600C</Value>
+        <Value>22</Value>
+        <Value>REDUCED OFF | 16 Bit</Value>
+        <Value>CCT &amp; RGBW 16bit</Value>
+        <Value>EVOKE 600C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>603</Value>
+        <Value>2 / 45-66</Value>
+        <Value>2/045</Value>
+        <Value>NANLUX</Value>
+        <Value>Evoke 600C</Value>
+        <Value>22</Value>
+        <Value>REDUCED OFF | 16 Bit</Value>
+        <Value>CCT &amp; RGBW 16bit</Value>
+        <Value>EVOKE 600C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>604</Value>
+        <Value>2 / 67-88</Value>
+        <Value>2/067</Value>
+        <Value>NANLUX</Value>
+        <Value>Evoke 600C</Value>
+        <Value>22</Value>
+        <Value>REDUCED OFF | 16 Bit</Value>
+        <Value>CCT &amp; RGBW 16bit</Value>
+        <Value>EVOKE 600C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>605</Value>
+        <Value>2 / 89-110</Value>
+        <Value>2/089</Value>
+        <Value>NANLUX</Value>
+        <Value>Evoke 600C</Value>
+        <Value>22</Value>
+        <Value>REDUCED OFF | 16 Bit</Value>
+        <Value>CCT &amp; RGBW 16bit</Value>
+        <Value>EVOKE 600C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>606</Value>
+        <Value>2 / 111-132</Value>
+        <Value>2/111</Value>
+        <Value>NANLUX</Value>
+        <Value>Evoke 600C</Value>
+        <Value>22</Value>
+        <Value>REDUCED OFF | 16 Bit</Value>
+        <Value>CCT &amp; RGBW 16bit</Value>
+        <Value>EVOKE 600C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>607</Value>
+        <Value>2 / 133-154</Value>
+        <Value>2/133</Value>
+        <Value>NANLUX</Value>
+        <Value>Evoke 600C</Value>
+        <Value>22</Value>
+        <Value>REDUCED OFF | 16 Bit</Value>
+        <Value>CCT &amp; RGBW 16bit</Value>
+        <Value>EVOKE 600C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>608</Value>
+        <Value>2 / 155-176</Value>
+        <Value>2/155</Value>
+        <Value>NANLUX</Value>
+        <Value>Evoke 600C</Value>
+        <Value>22</Value>
+        <Value>REDUCED OFF | 16 Bit</Value>
+        <Value>CCT &amp; RGBW 16bit</Value>
+        <Value>EVOKE 600C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>609</Value>
+        <Value>2 / 177-198</Value>
+        <Value>2/177</Value>
+        <Value>NANLUX</Value>
+        <Value>Evoke 600C</Value>
+        <Value>22</Value>
+        <Value>REDUCED OFF | 16 Bit</Value>
+        <Value>CCT &amp; RGBW 16bit</Value>
+        <Value>EVOKE 600C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>610</Value>
+        <Value>2 / 199-220</Value>
+        <Value>2/199</Value>
+        <Value>NANLUX</Value>
+        <Value>Evoke 600C</Value>
+        <Value>22</Value>
+        <Value>REDUCED OFF | 16 Bit</Value>
+        <Value>CCT &amp; RGBW 16bit</Value>
+        <Value>EVOKE 600C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>611</Value>
+        <Value>1-22</Value>
+        <Value>1/001</Value>
+        <Value>NANLUX</Value>
+        <Value>Evoke 600C</Value>
+        <Value>22</Value>
+        <Value>REDUCED OFF | 16 Bit</Value>
+        <Value>CCT &amp; RGBW 16bit</Value>
+        <Value>EVOKE 600C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>612</Value>
+        <Value>23-44</Value>
+        <Value>1/023</Value>
+        <Value>NANLUX</Value>
+        <Value>Evoke 600C</Value>
+        <Value>22</Value>
+        <Value>REDUCED OFF | 16 Bit</Value>
+        <Value>CCT &amp; RGBW 16bit</Value>
+        <Value>EVOKE 600C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>613</Value>
+        <Value>45-66</Value>
+        <Value>1/045</Value>
+        <Value>NANLUX</Value>
+        <Value>Evoke 600C</Value>
+        <Value>22</Value>
+        <Value>REDUCED OFF | 16 Bit</Value>
+        <Value>CCT &amp; RGBW 16bit</Value>
+        <Value>EVOKE 600C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>614</Value>
+        <Value>67-88</Value>
+        <Value>1/067</Value>
+        <Value>NANLUX</Value>
+        <Value>Evoke 600C</Value>
+        <Value>22</Value>
+        <Value>REDUCED OFF | 16 Bit</Value>
+        <Value>CCT &amp; RGBW 16bit</Value>
+        <Value>EVOKE 600C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>615</Value>
+        <Value>89-110</Value>
+        <Value>1/089</Value>
+        <Value>NANLUX</Value>
+        <Value>Evoke 600C</Value>
+        <Value>22</Value>
+        <Value>REDUCED OFF | 16 Bit</Value>
+        <Value>CCT &amp; RGBW 16bit</Value>
+        <Value>EVOKE 600C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>616</Value>
+        <Value>111-132</Value>
+        <Value>1/111</Value>
+        <Value>NANLUX</Value>
+        <Value>Evoke 600C</Value>
+        <Value>22</Value>
+        <Value>REDUCED OFF | 16 Bit</Value>
+        <Value>CCT &amp; RGBW 16bit</Value>
+        <Value>EVOKE 600C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>617</Value>
+        <Value>133-154</Value>
+        <Value>1/133</Value>
+        <Value>NANLUX</Value>
+        <Value>Evoke 600C</Value>
+        <Value>22</Value>
+        <Value>REDUCED OFF | 16 Bit</Value>
+        <Value>CCT &amp; RGBW 16bit</Value>
+        <Value>EVOKE 600C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>618</Value>
+        <Value>155-176</Value>
+        <Value>1/155</Value>
+        <Value>NANLUX</Value>
+        <Value>Evoke 600C</Value>
+        <Value>22</Value>
+        <Value>REDUCED OFF | 16 Bit</Value>
+        <Value>CCT &amp; RGBW 16bit</Value>
+        <Value>EVOKE 600C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>619</Value>
+        <Value>177-198</Value>
+        <Value>1/177</Value>
+        <Value>NANLUX</Value>
+        <Value>Evoke 600C</Value>
+        <Value>22</Value>
+        <Value>REDUCED OFF | 16 Bit</Value>
+        <Value>CCT &amp; RGBW 16bit</Value>
+        <Value>EVOKE 600C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>620</Value>
+        <Value>199-220</Value>
+        <Value>1/199</Value>
+        <Value>NANLUX</Value>
+        <Value>Evoke 600C</Value>
+        <Value>22</Value>
+        <Value>REDUCED OFF | 16 Bit</Value>
+        <Value>CCT &amp; RGBW 16bit</Value>
+        <Value>EVOKE 600C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>621</Value>
+        <Value>221-242</Value>
+        <Value>1/221</Value>
+        <Value>NANLUX</Value>
+        <Value>Evoke 600C</Value>
+        <Value>22</Value>
+        <Value>REDUCED OFF | 16 Bit</Value>
+        <Value>CCT &amp; RGBW 16bit</Value>
+        <Value>EVOKE 600C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>622</Value>
+        <Value>243-264</Value>
+        <Value>1/243</Value>
+        <Value>NANLUX</Value>
+        <Value>Evoke 600C</Value>
+        <Value>22</Value>
+        <Value>REDUCED OFF | 16 Bit</Value>
+        <Value>CCT &amp; RGBW 16bit</Value>
+        <Value>EVOKE 600C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>623</Value>
+        <Value>265-286</Value>
+        <Value>1/265</Value>
+        <Value>NANLUX</Value>
+        <Value>Evoke 600C</Value>
+        <Value>22</Value>
+        <Value>REDUCED OFF | 16 Bit</Value>
+        <Value>CCT &amp; RGBW 16bit</Value>
+        <Value>EVOKE 600C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>624</Value>
+        <Value>287-308</Value>
+        <Value>1/287</Value>
+        <Value>NANLUX</Value>
+        <Value>Evoke 600C</Value>
+        <Value>22</Value>
+        <Value>REDUCED OFF | 16 Bit</Value>
+        <Value>CCT &amp; RGBW 16bit</Value>
+        <Value>EVOKE 600C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>625</Value>
+        <Value>309-330</Value>
+        <Value>1/309</Value>
+        <Value>NANLUX</Value>
+        <Value>Evoke 600C</Value>
+        <Value>22</Value>
+        <Value>REDUCED OFF | 16 Bit</Value>
+        <Value>CCT &amp; RGBW 16bit</Value>
+        <Value>EVOKE 600C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>626</Value>
+        <Value>331-352</Value>
+        <Value>1/331</Value>
+        <Value>NANLUX</Value>
+        <Value>Evoke 600C</Value>
+        <Value>22</Value>
+        <Value>REDUCED OFF | 16 Bit</Value>
+        <Value>CCT &amp; RGBW 16bit</Value>
+        <Value>EVOKE 600C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>627</Value>
+        <Value>353-374</Value>
+        <Value>1/353</Value>
+        <Value>NANLUX</Value>
+        <Value>Evoke 600C</Value>
+        <Value>22</Value>
+        <Value>REDUCED OFF | 16 Bit</Value>
+        <Value>CCT &amp; RGBW 16bit</Value>
+        <Value>EVOKE 600C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>628</Value>
+        <Value>375-396</Value>
+        <Value>1/375</Value>
+        <Value>NANLUX</Value>
+        <Value>Evoke 600C</Value>
+        <Value>22</Value>
+        <Value>REDUCED OFF | 16 Bit</Value>
+        <Value>CCT &amp; RGBW 16bit</Value>
+        <Value>EVOKE 600C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>629</Value>
+        <Value>397-418</Value>
+        <Value>1/397</Value>
+        <Value>NANLUX</Value>
+        <Value>Evoke 600C</Value>
+        <Value>22</Value>
+        <Value>REDUCED OFF | 16 Bit</Value>
+        <Value>CCT &amp; RGBW 16bit</Value>
+        <Value>EVOKE 600C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>630</Value>
+        <Value>419-440</Value>
+        <Value>1/419</Value>
+        <Value>NANLUX</Value>
+        <Value>Evoke 600C</Value>
+        <Value>22</Value>
+        <Value>REDUCED OFF | 16 Bit</Value>
+        <Value>CCT &amp; RGBW 16bit</Value>
+        <Value>EVOKE 600C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>631</Value>
+        <Value>441-462</Value>
+        <Value>1/441</Value>
+        <Value>NANLUX</Value>
+        <Value>Evoke 600C</Value>
+        <Value>22</Value>
+        <Value>REDUCED OFF | 16 Bit</Value>
+        <Value>CCT &amp; RGBW 16bit</Value>
+        <Value>EVOKE 600C</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>632</Value>
+        <Value>23 / 388-409</Value>
+        <Value>23/388</Value>
+        <Value>NANLUX</Value>
+        <Value>Evoke 600C</Value>
+        <Value>22</Value>
+        <Value>REDUCED OFF | 16 Bit</Value>
+        <Value>CCT &amp; RGBW 16bit</Value>
+        <Value>EVOKE 600C</Value>
+        <Value>11111111C</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>633</Value>
+        <Value>23 / 410-431</Value>
+        <Value>23/410</Value>
+        <Value>NANLUX</Value>
+        <Value>Evoke 600C</Value>
+        <Value>22</Value>
+        <Value>REDUCED OFF | 16 Bit</Value>
+        <Value>CCT &amp; RGBW 16bit</Value>
+        <Value>EVOKE 600C</Value>
+        <Value>11111111C</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>634</Value>
+        <Value>23 / 432-453</Value>
+        <Value>23/432</Value>
+        <Value>NANLUX</Value>
+        <Value>Evoke 600C</Value>
+        <Value>22</Value>
+        <Value>REDUCED OFF | 16 Bit</Value>
+        <Value>CCT &amp; RGBW 16bit</Value>
+        <Value>EVOKE 600C</Value>
+        <Value>11111111C</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>635</Value>
+        <Value>23 / 454-475</Value>
+        <Value>23/454</Value>
+        <Value>NANLUX</Value>
+        <Value>Evoke 600C</Value>
+        <Value>22</Value>
+        <Value>REDUCED OFF | 16 Bit</Value>
+        <Value>CCT &amp; RGBW 16bit</Value>
+        <Value>EVOKE 600C</Value>
+        <Value>11111111C</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>636</Value>
+        <Value>23 / 476-497</Value>
+        <Value>23/476</Value>
+        <Value>NANLUX</Value>
+        <Value>Evoke 600C</Value>
+        <Value>22</Value>
+        <Value>REDUCED OFF | 16 Bit</Value>
+        <Value>CCT &amp; RGBW 16bit</Value>
+        <Value>EVOKE 600C</Value>
+        <Value>11111111C</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>701</Value>
+        <Value>5 / 391-427</Value>
+        <Value>5/391</Value>
+        <Value>Vari-Lite</Value>
+        <Value>VL2600 SPOT</Value>
+        <Value>37</Value>
+        <Value>Standard Fixture Control</Value>
+        <Value>16bit Mode</Value>
+        <Value>Mover1</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>702</Value>
+        <Value>7 / 391-427</Value>
+        <Value>7/391</Value>
+        <Value>Vari-Lite</Value>
+        <Value>VL2600 SPOT</Value>
+        <Value>37</Value>
+        <Value>Standard Fixture Control</Value>
+        <Value>16bit Mode</Value>
+        <Value>Mover1</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>801</Value>
+        <Value>4 / 1-130</Value>
+        <Value>4/001</Value>
+        <Value>Creamsource</Value>
+        <Value>Vortex8</Value>
+        <Value>130</Value>
+        <Value>16-bit – Multi-Zone CCT and RGBW</Value>
+        <Value>Mode 35</Value>
+        <Value>V8</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>802</Value>
+        <Value>4 / 131-260</Value>
+        <Value>4/131</Value>
+        <Value>Creamsource</Value>
+        <Value>Vortex8</Value>
+        <Value>130</Value>
+        <Value>16-bit – Multi-Zone CCT and RGBW</Value>
+        <Value>Mode 35</Value>
+        <Value>V8</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>803</Value>
+        <Value>5 / 1-130</Value>
+        <Value>5/001</Value>
+        <Value>Creamsource</Value>
+        <Value>Vortex8</Value>
+        <Value>130</Value>
+        <Value>16-bit – Multi-Zone CCT and RGBW</Value>
+        <Value>Mode 35</Value>
+        <Value>V8</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>804</Value>
+        <Value>5 / 131-260</Value>
+        <Value>5/131</Value>
+        <Value>Creamsource</Value>
+        <Value>Vortex8</Value>
+        <Value>130</Value>
+        <Value>16-bit – Multi-Zone CCT and RGBW</Value>
+        <Value>Mode 35</Value>
+        <Value>V8</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>805</Value>
+        <Value>5 / 261-390</Value>
+        <Value>5/261</Value>
+        <Value>Creamsource</Value>
+        <Value>Vortex8</Value>
+        <Value>130</Value>
+        <Value>16-bit – Multi-Zone CCT and RGBW</Value>
+        <Value>Mode 35</Value>
+        <Value>V8</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>806</Value>
+        <Value>6 / 1-130</Value>
+        <Value>6/001</Value>
+        <Value>Creamsource</Value>
+        <Value>Vortex8</Value>
+        <Value>130</Value>
+        <Value>16-bit – Multi-Zone CCT and RGBW</Value>
+        <Value>Mode 35</Value>
+        <Value>V8</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>807</Value>
+        <Value>6 / 131-260</Value>
+        <Value>6/131</Value>
+        <Value>Creamsource</Value>
+        <Value>Vortex8</Value>
+        <Value>130</Value>
+        <Value>16-bit – Multi-Zone CCT and RGBW</Value>
+        <Value>Mode 35</Value>
+        <Value>V8</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>808</Value>
+        <Value>7 / 1-130</Value>
+        <Value>7/001</Value>
+        <Value>Creamsource</Value>
+        <Value>Vortex8</Value>
+        <Value>130</Value>
+        <Value>16-bit – Multi-Zone CCT and RGBW</Value>
+        <Value>Mode 35</Value>
+        <Value>V8</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>809</Value>
+        <Value>7 / 131-260</Value>
+        <Value>7/131</Value>
+        <Value>Creamsource</Value>
+        <Value>Vortex8</Value>
+        <Value>130</Value>
+        <Value>16-bit – Multi-Zone CCT and RGBW</Value>
+        <Value>Mode 35</Value>
+        <Value>V8</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>810</Value>
+        <Value>7 / 261-390</Value>
+        <Value>7/261</Value>
+        <Value>Creamsource</Value>
+        <Value>Vortex8</Value>
+        <Value>130</Value>
+        <Value>16-bit – Multi-Zone CCT and RGBW</Value>
+        <Value>Mode 35</Value>
+        <Value>V8</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>811</Value>
+        <Value>8 / 1-130</Value>
+        <Value>8/001</Value>
+        <Value>Creamsource</Value>
+        <Value>Vortex8</Value>
+        <Value>130</Value>
+        <Value>16-bit – Multi-Zone CCT and RGBW</Value>
+        <Value>Mode 35</Value>
+        <Value>V8</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>812</Value>
+        <Value>8 / 131-260</Value>
+        <Value>8/131</Value>
+        <Value>Creamsource</Value>
+        <Value>Vortex8</Value>
+        <Value>130</Value>
+        <Value>16-bit – Multi-Zone CCT and RGBW</Value>
+        <Value>Mode 35</Value>
+        <Value>V8</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>813</Value>
+        <Value>11 / 1-130</Value>
+        <Value>11/001</Value>
+        <Value>Creamsource</Value>
+        <Value>Vortex8</Value>
+        <Value>130</Value>
+        <Value>16-bit – Multi-Zone CCT and RGBW</Value>
+        <Value>Mode 35</Value>
+        <Value>V8_FX</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>814</Value>
+        <Value>11 / 131-260</Value>
+        <Value>11/131</Value>
+        <Value>Creamsource</Value>
+        <Value>Vortex8</Value>
+        <Value>130</Value>
+        <Value>16-bit – Multi-Zone CCT and RGBW</Value>
+        <Value>Mode 35</Value>
+        <Value>V8_FX</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>815</Value>
+        <Value>11 / 261-390</Value>
+        <Value>11/261</Value>
+        <Value>Creamsource</Value>
+        <Value>Vortex8</Value>
+        <Value>130</Value>
+        <Value>16-bit – Multi-Zone CCT and RGBW</Value>
+        <Value>Mode 35</Value>
+        <Value>V8_FX</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>816</Value>
+        <Value>12 / 1-130</Value>
+        <Value>12/001</Value>
+        <Value>Creamsource</Value>
+        <Value>Vortex8</Value>
+        <Value>130</Value>
+        <Value>16-bit – Multi-Zone CCT and RGBW</Value>
+        <Value>Mode 35</Value>
+        <Value>V8_FX</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>817</Value>
+        <Value>12 / 131-260</Value>
+        <Value>12/131</Value>
+        <Value>Creamsource</Value>
+        <Value>Vortex8</Value>
+        <Value>130</Value>
+        <Value>16-bit – Multi-Zone CCT and RGBW</Value>
+        <Value>Mode 35</Value>
+        <Value>V8_FX</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>818</Value>
+        <Value>12 / 261-390</Value>
+        <Value>12/261</Value>
+        <Value>Creamsource</Value>
+        <Value>Vortex8</Value>
+        <Value>130</Value>
+        <Value>16-bit – Multi-Zone CCT and RGBW</Value>
+        <Value>Mode 35</Value>
+        <Value>V8_FX</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>819</Value>
+        <Value>13 / 1-130</Value>
+        <Value>13/001</Value>
+        <Value>Creamsource</Value>
+        <Value>Vortex8</Value>
+        <Value>130</Value>
+        <Value>16-bit – Multi-Zone CCT and RGBW</Value>
+        <Value>Mode 35</Value>
+        <Value>V8_FX</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>820</Value>
+        <Value>13 / 131-260</Value>
+        <Value>13/131</Value>
+        <Value>Creamsource</Value>
+        <Value>Vortex8</Value>
+        <Value>130</Value>
+        <Value>16-bit – Multi-Zone CCT and RGBW</Value>
+        <Value>Mode 35</Value>
+        <Value>V8_FX</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>821</Value>
+        <Value>13 / 261-390</Value>
+        <Value>13/261</Value>
+        <Value>Creamsource</Value>
+        <Value>Vortex8</Value>
+        <Value>130</Value>
+        <Value>16-bit – Multi-Zone CCT and RGBW</Value>
+        <Value>Mode 35</Value>
+        <Value>V8_FX</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>822</Value>
+        <Value>14 / 1-130</Value>
+        <Value>14/001</Value>
+        <Value>Creamsource</Value>
+        <Value>Vortex8</Value>
+        <Value>130</Value>
+        <Value>16-bit – Multi-Zone CCT and RGBW</Value>
+        <Value>Mode 35</Value>
+        <Value>V8_FX</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>823</Value>
+        <Value>14 / 131-260</Value>
+        <Value>14/131</Value>
+        <Value>Creamsource</Value>
+        <Value>Vortex8</Value>
+        <Value>130</Value>
+        <Value>16-bit – Multi-Zone CCT and RGBW</Value>
+        <Value>Mode 35</Value>
+        <Value>V8_FX</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>824</Value>
+        <Value>14 / 261-390</Value>
+        <Value>14/261</Value>
+        <Value>Creamsource</Value>
+        <Value>Vortex8</Value>
+        <Value>130</Value>
+        <Value>16-bit – Multi-Zone CCT and RGBW</Value>
+        <Value>Mode 35</Value>
+        <Value>V8_FX</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>825</Value>
+        <Value>15 / 1-130</Value>
+        <Value>15/001</Value>
+        <Value>Creamsource</Value>
+        <Value>Vortex8</Value>
+        <Value>130</Value>
+        <Value>16-bit – Multi-Zone CCT and RGBW</Value>
+        <Value>Mode 35</Value>
+        <Value>V8_FX</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>826</Value>
+        <Value>15 / 131-260</Value>
+        <Value>15/131</Value>
+        <Value>Creamsource</Value>
+        <Value>Vortex8</Value>
+        <Value>130</Value>
+        <Value>16-bit – Multi-Zone CCT and RGBW</Value>
+        <Value>Mode 35</Value>
+        <Value>V8_FX</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>827</Value>
+        <Value>15 / 261-390</Value>
+        <Value>15/261</Value>
+        <Value>Creamsource</Value>
+        <Value>Vortex8</Value>
+        <Value>130</Value>
+        <Value>16-bit – Multi-Zone CCT and RGBW</Value>
+        <Value>Mode 35</Value>
+        <Value>V8_FX</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>828</Value>
+        <Value>16 / 1-130</Value>
+        <Value>16/001</Value>
+        <Value>Creamsource</Value>
+        <Value>Vortex8</Value>
+        <Value>130</Value>
+        <Value>16-bit – Multi-Zone CCT and RGBW</Value>
+        <Value>Mode 35</Value>
+        <Value>V8_FX</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>829</Value>
+        <Value>16 / 131-260</Value>
+        <Value>16/131</Value>
+        <Value>Creamsource</Value>
+        <Value>Vortex8</Value>
+        <Value>130</Value>
+        <Value>16-bit – Multi-Zone CCT and RGBW</Value>
+        <Value>Mode 35</Value>
+        <Value>V8_FX</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>830</Value>
+        <Value>16 / 261-390</Value>
+        <Value>16/261</Value>
+        <Value>Creamsource</Value>
+        <Value>Vortex8</Value>
+        <Value>130</Value>
+        <Value>16-bit – Multi-Zone CCT and RGBW</Value>
+        <Value>Mode 35</Value>
+        <Value>V8_FX</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>831</Value>
+        <Value>17 / 1-130</Value>
+        <Value>17/001</Value>
+        <Value>Creamsource</Value>
+        <Value>Vortex8</Value>
+        <Value>130</Value>
+        <Value>16-bit – Multi-Zone CCT and RGBW</Value>
+        <Value>Mode 35</Value>
+        <Value>V8_FX</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>832</Value>
+        <Value>17 / 131-260</Value>
+        <Value>17/131</Value>
+        <Value>Creamsource</Value>
+        <Value>Vortex8</Value>
+        <Value>130</Value>
+        <Value>16-bit – Multi-Zone CCT and RGBW</Value>
+        <Value>Mode 35</Value>
+        <Value>V8_FX</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>833</Value>
+        <Value>17 / 261-390</Value>
+        <Value>17/261</Value>
+        <Value>Creamsource</Value>
+        <Value>Vortex8</Value>
+        <Value>130</Value>
+        <Value>16-bit – Multi-Zone CCT and RGBW</Value>
+        <Value>Mode 35</Value>
+        <Value>V8_FX</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>834</Value>
+        <Value>18 / 1-130</Value>
+        <Value>18/001</Value>
+        <Value>Creamsource</Value>
+        <Value>Vortex8</Value>
+        <Value>130</Value>
+        <Value>16-bit – Multi-Zone CCT and RGBW</Value>
+        <Value>Mode 35</Value>
+        <Value>V8_FX</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>835</Value>
+        <Value>18 / 131-260</Value>
+        <Value>18/131</Value>
+        <Value>Creamsource</Value>
+        <Value>Vortex8</Value>
+        <Value>130</Value>
+        <Value>16-bit – Multi-Zone CCT and RGBW</Value>
+        <Value>Mode 35</Value>
+        <Value>V8_FX</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>836</Value>
+        <Value>18 / 261-390</Value>
+        <Value>18/261</Value>
+        <Value>Creamsource</Value>
+        <Value>Vortex8</Value>
+        <Value>130</Value>
+        <Value>16-bit – Multi-Zone CCT and RGBW</Value>
+        <Value>Mode 35</Value>
+        <Value>V8_FX</Value>
+        <Value>DMX</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>881</Value>
+        <Value>21 / 1-130</Value>
+        <Value>21/001</Value>
+        <Value>Creamsource</Value>
+        <Value>Vortex8</Value>
+        <Value>130</Value>
+        <Value>16-bit – Multi-Zone CCT and RGBW</Value>
+        <Value>Mode 35</Value>
+        <Value>V8</Value>
+        <Value>11111111A</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>882</Value>
+        <Value>21 / 131-260</Value>
+        <Value>21/131</Value>
+        <Value>Creamsource</Value>
+        <Value>Vortex8</Value>
+        <Value>130</Value>
+        <Value>16-bit – Multi-Zone CCT and RGBW</Value>
+        <Value>Mode 35</Value>
+        <Value>V8</Value>
+        <Value>11111111A</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>901</Value>
+        <Value>21 / 278-286</Value>
+        <Value>21/278</Value>
+        <Value>Astera</Value>
+        <Value>AX9 PowerPAR</Value>
+        <Value>9</Value>
+        <Value>D16 CCT GM C RGB S</Value>
+        <Value>Mode 137</Value>
+        <Value>AX5</Value>
+        <Value>11111111A</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>902</Value>
+        <Value>21 / 287-295</Value>
+        <Value>21/287</Value>
+        <Value>Astera</Value>
+        <Value>AX9 PowerPAR</Value>
+        <Value>9</Value>
+        <Value>D16 CCT GM C RGB S</Value>
+        <Value>Mode 137</Value>
+        <Value>AX5</Value>
+        <Value>11111111A</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>903</Value>
+        <Value>21 / 296-304</Value>
+        <Value>21/296</Value>
+        <Value>Astera</Value>
+        <Value>AX9 PowerPAR</Value>
+        <Value>9</Value>
+        <Value>D16 CCT GM C RGB S</Value>
+        <Value>Mode 137</Value>
+        <Value>AX5</Value>
+        <Value>11111111A</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>904</Value>
+        <Value>21 / 305-313</Value>
+        <Value>21/305</Value>
+        <Value>Astera</Value>
+        <Value>AX9 PowerPAR</Value>
+        <Value>9</Value>
+        <Value>D16 CCT GM C RGB S</Value>
+        <Value>Mode 137</Value>
+        <Value>AX5</Value>
+        <Value>11111111A</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>905</Value>
+        <Value>21 / 314-322</Value>
+        <Value>21/314</Value>
+        <Value>Astera</Value>
+        <Value>AX9 PowerPAR</Value>
+        <Value>9</Value>
+        <Value>D16 CCT GM C RGB S</Value>
+        <Value>Mode 137</Value>
+        <Value>AX5</Value>
+        <Value>11111111A</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>906</Value>
+        <Value>21 / 323-331</Value>
+        <Value>21/323</Value>
+        <Value>Astera</Value>
+        <Value>AX9 PowerPAR</Value>
+        <Value>9</Value>
+        <Value>D16 CCT GM C RGB S</Value>
+        <Value>Mode 137</Value>
+        <Value>AX5</Value>
+        <Value>11111111A</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>907</Value>
+        <Value>21 / 332-340</Value>
+        <Value>21/332</Value>
+        <Value>Astera</Value>
+        <Value>AX9 PowerPAR</Value>
+        <Value>9</Value>
+        <Value>D16 CCT GM C RGB S</Value>
+        <Value>Mode 137</Value>
+        <Value>AX5</Value>
+        <Value>11111111A</Value>
+        <Value />
+      </DataRow>
+      <DataRow>
+        <Value>908</Value>
+        <Value>21 / 341-349</Value>
+        <Value>21/341</Value>
+        <Value>Astera</Value>
+        <Value>AX9 PowerPAR</Value>
+        <Value>9</Value>
+        <Value>D16 CCT GM C RGB S</Value>
+        <Value>Mode 137</Value>
+        <Value>AX5</Value>
+        <Value>11111111A</Value>
+        <Value />
+      </DataRow>
+    </Rows>
+  </DataTable>
+</DesktopLabel>
